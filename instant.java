@@ -45,7 +45,7 @@ public class instant {
        Scanner sc = new Scanner(System.in);
         System.out.print("Enter Employee ID: ");
         int id = sc.nextInt();
-        sc.nextLine(); // Consume newline left-over
+        sc.nextLine(); 
         System.out.print("Enter Employee Name: ");
         String name = sc.nextLine();
         instant emp1 = new instant(id, name);
