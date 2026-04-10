@@ -5,6 +5,7 @@
 //method 2: a-b
 //method 3: a*b
 //method 4: a/b
+import java.util.Scanner;
 public class twonumbers {
     //method 1:
     public static int add(int a , int b){
@@ -24,9 +25,14 @@ public class twonumbers {
     }
     public static void main(String[] args){
         //declare two numbers 
-        int a = 20; 
-        int b = 10;
-        //call the method to print result
+        //int a = 20; 
+       // int b = 10;
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter first number:");
+       int a = sc.nextInt();
+       System.out.println("Enter second number:");
+       int b = sc.nextInt();
+            //call the method to print result
         System.out.println("Addition:" + add(a, b));
         System.out.println("Subtraction:" + subtract(a, b));
         System.out.println("multiplication:" + multiplication(a, b));
